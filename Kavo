@@ -619,7 +619,7 @@ function Kavo.CreateLib(kavName, themeList)
                 Objects[viewInfo] = "ImageColor3"
                 viewInfo.ImageRectOffset = Vector2.new(764, 764)
                 viewInfo.ImageRectSize = Vector2.new(36, 36)
-
+				viewInfo.Visible = false
                 Sample.Name = "Sample"
                 Sample.Parent = buttonElement
                 Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -814,6 +814,7 @@ function Kavo.CreateLib(kavName, themeList)
                 viewInfo.ImageColor3 = themeList.SchemeColor
                 viewInfo.ImageRectOffset = Vector2.new(764, 764)
                 viewInfo.ImageRectSize = Vector2.new(36, 36)
+				viewInfo.Visible = false
 
                 write.Name = "write"
                 write.Parent = textboxElement
@@ -1050,6 +1051,7 @@ function Kavo.CreateLib(kavName, themeList)
                     viewInfo.ImageColor3 = themeList.SchemeColor
                     viewInfo.ImageRectOffset = Vector2.new(764, 764)
                     viewInfo.ImageRectSize = Vector2.new(36, 36)
+					viewInfo.Visible = false
 
                     Sample.Name = "Sample"
                     Sample.Parent = toggleElement
@@ -1280,6 +1282,7 @@ function Kavo.CreateLib(kavName, themeList)
                 viewInfo.ImageColor3 = themeList.SchemeColor
                 viewInfo.ImageRectOffset = Vector2.new(764, 764)
                 viewInfo.ImageRectSize = Vector2.new(36, 36)
+viewInfo.Visible = false
 
                 sliderBtn.Name = "sliderBtn"
                 sliderBtn.Parent = sliderElement
@@ -1606,6 +1609,7 @@ function Kavo.CreateLib(kavName, themeList)
                 viewInfo.ImageColor3 = themeList.SchemeColor
                 viewInfo.ImageRectOffset = Vector2.new(764, 764)
                 viewInfo.ImageRectSize = Vector2.new(36, 36)
+viewInfo.Visible = false
 
                 UICorner.CornerRadius = UDim.new(0, 4)
                 UICorner.Parent = dropOpen
@@ -2032,6 +2036,7 @@ function Kavo.CreateLib(kavName, themeList)
                 viewInfo.ImageColor3 = themeList.SchemeColor
                 viewInfo.ImageRectOffset = Vector2.new(764, 764)
                 viewInfo.ImageRectSize = Vector2.new(36, 36)
+viewInfo.Visible = false
                 viewInfo.MouseButton1Click:Connect(function()
                     if not viewDe then
                         viewDe = true
@@ -2304,6 +2309,7 @@ function Kavo.CreateLib(kavName, themeList)
                 viewInfo.ImageColor3 = themeList.SchemeColor
                 viewInfo.ImageRectOffset = Vector2.new(764, 764)
                 viewInfo.ImageRectSize = Vector2.new(36, 36)
+viewInfo.Visible = false
                 viewInfo.MouseButton1Click:Connect(function()
                     if not viewDe then
                         viewDe = true
